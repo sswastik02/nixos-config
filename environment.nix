@@ -15,9 +15,9 @@ let
     type = "Application";
   };
   shutdown = pkgs.makeDesktopItem {
-    name = "shutdown";
-    desktopName = "Shutdown";
-    comment = "Shutdown";
+    name = "poweroff";
+    desktopName = "Poweroff";
+    comment = "Poweroff";
     exec = "systemctl poweroff";
     icon = "${icon}";
     type = "Application";
