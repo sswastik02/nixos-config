@@ -65,6 +65,8 @@ in
     pass
     dig
     bashmount
+    jq
+    btop
   ];
 
   fonts.packages = with pkgs; [
